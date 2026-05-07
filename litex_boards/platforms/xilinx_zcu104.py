@@ -102,6 +102,94 @@ _io = [
     ),
 ]
 
+
+# Connectors ---------------------------------------------------------------------------------------
+
+_connectors = [
+    ("PMOD0", "G8 H8 G7 H7 G6 H6 J6 J7"),
+    ("PMOD1", "J9 K9 K8 L8 L10 M10 M8 M9"),
+    ("FMC_LPC0", {                  # FMC connector pin
+        "DP0_C2M_P"       : "H4",   # C2 (MGT, not usable as GPIO)
+        "DP0_C2M_N"       : "H3",   # C3 (MGT, not usable as GPIO)
+        "DP0_M2C_P"       : "G2",   # C6 (MGT, not usable as GPIO)
+        "DP0_M2C_N"       : "G1",   # C7 (MGT, not usable as GPIO)
+        "LA06_P"          : "H19",  # C10
+        "LA06_N"          : "G19",  # C11
+        "LA10_P"          : "L15",  # C14
+        "LA10_N"          : "K15",  # C15
+        "LA14_P"          : "C13",  # C18
+        "LA14_N"          : "C12",  # C19
+        "LA18_CC_P"       : "D11",  # C22
+        "LA18_CC_N"       : "D10",  # C23
+        "LA27_P"          : "A8",   # C26
+        "LA27_N"          : "A7",   # C27
+        "GBTCLK0_M2C_P"   : "V8",   # D4 (reference clock, not usable as GPIO)
+        "GBTCLK0_M2C_N"   : "V7",   # D5 (reference clock, not usable as GPIO)
+        "LA01_CC_P"       : "H18",  # D8
+        "LA01_CC_N"       : "H17",  # D9
+        "LA05_P"          : "K17",  # D11
+        "LA05_N"          : "J17",  # D12
+        "LA09_P"          : "H16",  # D14
+        "LA09_N"          : "G16",  # D15
+        "LA13_P"          : "G15",  # D17
+        "LA13_N"          : "F15",  # D18
+        "LA17_CC_P"       : "F11",  # D20
+        "LA17_CC_N"       : "E10",  # D21
+        "LA23_P"          : "B11",  # D23
+        "LA23_N"          : "A11",  # D24
+        "LA26_P"          : "B9",   # D26
+        "LA26_N"          : "B8",   # D27
+        "CLK1_M2C_P"      : "G10",  # G2
+        "CLK1_M2C_N"      : "F10",  # G3
+        "LA00_CC_P"       : "F17",  # G6
+        "LA00_CC_N"       : "F16",  # G7
+        "LA03_P"          : "K19",  # G9
+        "LA03_N"          : "K18",  # G10
+        "LA08_P"          : "E18",  # G12
+        "LA08_N"          : "E17",  # G13
+        "LA12_P"          : "G18",  # G15
+        "LA12_N"          : "F18",  # G16
+        "LA16_P"          : "D17",  # G18
+        "LA16_N"          : "C17",  # G19
+        "LA20_P"          : "F12",  # G21
+        "LA20_N"          : "E12",  # G22
+        "LA22_P"          : "H13",  # G24
+        "LA22_N"          : "H12",  # G25
+        "LA25_P"          : "C7",   # G27
+        "LA25_N"          : "C6",   # G28
+        "LA29_P"          : "K10",  # G30
+        "LA29_N"          : "J10",  # G31
+        "LA31_P"          : "F7",   # G33
+        "LA31_N"          : "E7",   # G34
+        "LA33_P"          : "C9",   # G36
+        "LA33_N"          : "C8",   # G37
+        "CLK0_M2C_P"      : "E15",  # H4
+        "CLK0_M2C_N"      : "E14",  # H5
+        "LA02_P"          : "L20",  # H7
+        "LA02_N"          : "K20",  # H8
+        "LA04_P"          : "L17",  # H10
+        "LA04_N"          : "L16",  # H11
+        "LA07_P"          : "J16",  # H13
+        "LA07_N"          : "J15",  # H14
+        "LA11_P"          : "A13",  # H16
+        "LA11_N"          : "A12",  # H17
+        "LA15_P"          : "D16",  # H19
+        "LA15_N"          : "C16",  # H20
+        "LA19_P"          : "D12",  # H22
+        "LA19_N"          : "C11",  # H23
+        "LA21_P"          : "B10",  # H25
+        "LA21_N"          : "A10",  # H26
+        "LA24_P"          : "B6",   # H28
+        "LA24_N"          : "A6",   # H29
+        "LA28_P"          : "M13",  # H31
+        "LA28_N"          : "L13",  # H32
+        "LA30_P"          : "E9",   # H34
+        "LA30_N"          : "D9",   # H35
+        "LA32_P"          : "F8",   # H37
+        "LA32_N"          : "E8",   # H38
+    }),
+]
+
 # Platform -----------------------------------------------------------------------------------------
 
 class Platform(XilinxUSPPlatform):

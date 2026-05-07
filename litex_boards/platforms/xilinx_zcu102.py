@@ -183,219 +183,219 @@ _io = [
 # Connectors ---------------------------------------------------------------------------------------
 
 _connectors = [
-    ("j55", "A20 B20 A22 A21 B21 C21 C22 D21"),
-    ("j87", "D20 E20 D22 E22 F20 G20 J20 J19"),
-    ("FMC_HPC0", {
-        "CLK0_M2C_N"      : "AA6",
-        "CLK0_M2C_P"      : "AA7",
-        "CLK1_M2C_N"      : "R8",
-        "CLK1_M2C_P"      : "T8",
-        "DP0_C2M_N"       : "G3",
-        "DP0_C2M_P"       : "G4",
-        "DP0_M2C_N"       : "H1",
-        "DP0_M2C_P"       : "H2",
-        "DP1_C2M_N"       : "H5",
-        "DP1_C2M_P"       : "H6",
-        "DP1_M2C_N"       : "J3",
-        "DP1_M2C_P"       : "J4",
-        "DP2_C2M_N"       : "F5",
-        "DP2_C2M_P"       : "F6",
-        "DP2_M2C_N"       : "F1",
-        "DP2_M2C_P"       : "F2",
-        "DP3_C2M_N"       : "K5",
-        "DP3_C2M_P"       : "K6",
-        "DP3_M2C_N"       : "K1",
-        "DP3_M2C_P"       : "K2",
-        "DP4_C2M_N"       : "M5",
-        "DP4_C2M_P"       : "M6",
-        "DP4_M2C_N"       : "L3",
-        "DP4_M2C_P"       : "L4",
-        "DP5_C2M_N"       : "P5",
-        "DP5_C2M_P"       : "P6",
-        "DP5_M2C_N"       : "P1",
-        "DP5_M2C_P"       : "P2",
-        "DP6_C2M_N"       : "R3",
-        "DP6_C2M_P"       : "R4",
-        "DP6_M2C_N"       : "T1",
-        "DP6_M2C_P"       : "T2",
-        "DP7_C2M_N"       : "N3",
-        "DP7_C2M_P"       : "N4",
-        "DP7_M2C_N"       : "M1",
-        "DP7_M2C_P"       : "M2",
-        "GBTCLK0_M2C_C_N" : "G7",
-        "GBTCLK0_M2C_C_P" : "G8",
-        "GBTCLK1_M2C_C_N" : "L7",
-        "GBTCLK1_M2C_C_P" : "L8",
-        "LA00_CC_N"       : "Y3",
-        "LA00_CC_P"       : "Y4",
-        "LA01_CC_N"       : "AC4",
-        "LA01_CC_P"       : "AB4",
-        "LA02_N"          : "V1",
-        "LA02_P"          : "V2",
-        "LA03_N"          : "Y1",
-        "LA03_P"          : "Y2",
-        "LA04_N"          : "AA1",
-        "LA04_P"          : "AA2",
-        "LA05_N"          : "AC3",
-        "LA05_P"          : "AB3",
-        "LA06_N"          : "AC1",
-        "LA06_P"          : "AC2",
-        "LA07_N"          : "U4",
-        "LA07_P"          : "U5",
-        "LA08_N"          : "V3",
-        "LA08_P"          : "V4",
-        "LA09_N"          : "W1",
-        "LA09_P"          : "W2",
-        "LA10_N"          : "W4",
-        "LA10_P"          : "W5",
-        "LA11_N"          : "AB5",
-        "LA11_P"          : "AB6",
-        "LA12_N"          : "W6",
-        "LA12_P"          : "W7",
-        "LA13_N"          : "AC8",
-        "LA13_P"          : "AB8",
-        "LA14_N"          : "AC6",
-        "LA14_P"          : "AC7",
-        "LA15_N"          : "Y9",
-        "LA15_P"          : "Y10",
-        "LA16_N"          : "AA12",
-        "LA16_P"          : "Y12",
-        "LA17_CC_N"       : "N11",
-        "LA17_CC_P"       : "P11",
-        "LA18_CC_N"       : "N8",
-        "LA18_CC_P"       : "N9",
-        "LA19_N"          : "K13",
-        "LA19_P"          : "L13",
-        "LA20_N"          : "M13",
-        "LA20_P"          : "N13",
-        "LA21_N"          : "N12",
-        "LA21_P"          : "P12",
-        "LA22_N"          : "M14",
-        "LA22_P"          : "M15",
-        "LA23_N"          : "K16",
-        "LA23_P"          : "L16",
-        "LA24_N"          : "K12",
-        "LA24_P"          : "L12",
-        "LA25_N"          : "L11",
-        "LA25_P"          : "M11",
-        "LA26_N"          : "K15",
-        "LA26_P"          : "L15",
-        "LA27_N"          : "L10",
-        "LA27_P"          : "M10",
-        "LA28_N"          : "T6",
-        "LA28_P"          : "T7",
-        "LA29_N"          : "U8",
-        "LA29_P"          : "U9",
-        "LA30_N"          : "U6",
-        "LA30_P"          : "V6",
-        "LA31_N"          : "V7",
-        "LA31_P"          : "V8",
-        "LA32_N"          : "T11",
-        "LA32_P"          : "U11",
-        "LA33_N"          : "V11",
-        "LA33_P"          : "V12",
+    ("PMOD0", "A20 B20 A22 A21 B21 C21 C22 D21"),
+    ("PMOD1", "D20 E20 D22 E22 F20 G20 J20 J19"),
+    ("FMC_HPC0", {                  # FMC connector pin
+        "DP1_M2C_P"       : "J4",   # A2  (MGT, not usable as GPIO)
+        "DP1_M2C_N"       : "J3",   # A3  (MGT, not usable as GPIO)
+        "DP2_M2C_P"       : "F2",   # A6  (MGT, not usable as GPIO)
+        "DP2_M2C_N"       : "F1",   # A7  (MGT, not usable as GPIO)
+        "DP3_M2C_P"       : "K2",   # A10 (MGT, not usable as GPIO)
+        "DP3_M2C_N"       : "K1",   # A11 (MGT, not usable as GPIO)
+        "DP4_M2C_P"       : "L4",   # A14 (MGT, not usable as GPIO)
+        "DP4_M2C_N"       : "L3",   # A15 (MGT, not usable as GPIO)
+        "DP5_M2C_P"       : "P2",   # A18 (MGT, not usable as GPIO)
+        "DP5_M2C_N"       : "P1",   # A19 (MGT, not usable as GPIO)
+        "DP1_C2M_P"       : "H6",   # A22 (MGT, not usable as GPIO)
+        "DP1_C2M_N"       : "H5",   # A23 (MGT, not usable as GPIO)
+        "DP2_C2M_P"       : "F6",   # A26 (MGT, not usable as GPIO)
+        "DP2_C2M_N"       : "F5",   # A27 (MGT, not usable as GPIO)
+        "DP3_C2M_P"       : "K6",   # A30 (MGT, not usable as GPIO)
+        "DP3_C2M_N"       : "K5",   # A31 (MGT, not usable as GPIO)
+        "DP4_C2M_P"       : "M6",   # A34 (MGT, not usable as GPIO)
+        "DP4_C2M_N"       : "M5",   # A35 (MGT, not usable as GPIO)
+        "DP5_C2M_P"       : "P6",   # A38 (MGT, not usable as GPIO)
+        "DP5_C2M_N"       : "P5",   # A39 (MGT, not usable as GPIO)
+        "DP7_M2C_P"       : "M2",   # B12 (MGT, not usable as GPIO)
+        "DP7_M2C_N"       : "M1",   # B13 (MGT, not usable as GPIO)
+        "DP6_M2C_P"       : "T2",   # B16 (MGT, not usable as GPIO)
+        "DP6_M2C_N"       : "T1",   # B17 (MGT, not usable as GPIO)
+        "GBTCLK1_M2C_P"   : "L8",   # B20 (reference clock, not usable as GPIO)
+        "GBTCLK1_M2C_N"   : "L7",   # B21 (reference clock, not usable as GPIO)
+        "DP7_C2M_P"       : "N4",   # B32 (MGT, not usable as GPIO)
+        "DP7_C2M_N"       : "N3",   # B33 (MGT, not usable as GPIO)
+        "DP6_C2M_P"       : "R4",   # B36 (MGT, not usable as GPIO)
+        "DP6_C2M_N"       : "R3",   # B37 (MGT, not usable as GPIO)
+        "DP0_C2M_P"       : "G4",   # C2  (MGT, not usable as GPIO)
+        "DP0_C2M_N"       : "G3",   # C3  (MGT, not usable as GPIO)
+        "DP0_M2C_P"       : "H2",   # C6  (MGT, not usable as GPIO)
+        "DP0_M2C_N"       : "H1",   # C7  (MGT, not usable as GPIO)
+        "LA06_P"          : "AC2",  # C10
+        "LA06_N"          : "AC1",  # C11
+        "LA10_P"          : "W5",   # C14
+        "LA10_N"          : "W4",   # C15
+        "LA14_P"          : "AC7",  # C18
+        "LA14_N"          : "AC6",  # C19
+        "LA18_CC_P"       : "N9",   # C22
+        "LA18_CC_N"       : "N8",   # C23
+        "LA27_P"          : "M10",  # C26
+        "LA27_N"          : "L10",  # C27
+        "GBTCLK0_M2C_P"   : "G8",   # D4  (reference clock, not usable as GPIO)
+        "GBTCLK0_M2C_N"   : "G7",   # D5  (reference clock, not usable as GPIO)
+        "LA01_CC_P"       : "AB4",  # D8
+        "LA01_CC_N"       : "AC4",  # D9
+        "LA05_P"          : "AB3",  # D11
+        "LA05_N"          : "AC3",  # D12
+        "LA09_P"          : "W2",   # D14
+        "LA09_N"          : "W1",   # D15
+        "LA13_P"          : "AB8",  # D17
+        "LA13_N"          : "AC8",  # D18
+        "LA17_CC_P"       : "P11",  # D20
+        "LA17_CC_N"       : "N11",  # D21
+        "LA23_P"          : "L16",  # D23
+        "LA23_N"          : "K16",  # D24
+        "LA26_P"          : "L15",  # D26
+        "LA26_N"          : "K15",  # D27
+        "CLK1_M2C_P"      : "T8",   # G2
+        "CLK1_M2C_N"      : "R8",   # G3
+        "LA00_CC_P"       : "Y4",   # G6
+        "LA00_CC_N"       : "Y3",   # G7
+        "LA03_P"          : "Y2",   # G9
+        "LA03_N"          : "Y1",   # G10
+        "LA08_P"          : "V4",   # G12
+        "LA08_N"          : "V3",   # G13
+        "LA12_P"          : "W7",   # G15
+        "LA12_N"          : "W6",   # G16
+        "LA16_P"          : "Y12",  # G18
+        "LA16_N"          : "AA12", # G19
+        "LA20_P"          : "N13",  # G21
+        "LA20_N"          : "M13",  # G22
+        "LA22_P"          : "M15",  # G24
+        "LA22_N"          : "M14",  # G25
+        "LA25_P"          : "M11",  # G27
+        "LA25_N"          : "L11",  # G28
+        "LA29_P"          : "U9",   # G30
+        "LA29_N"          : "U8",   # G31
+        "LA31_P"          : "V8",   # G33
+        "LA31_N"          : "V7",   # G34
+        "LA33_P"          : "V12",  # G36
+        "LA33_N"          : "V11",  # G37
+        "CLK0_M2C_P"      : "AA7",  # H4
+        "CLK0_M2C_N"      : "AA6",  # H5
+        "LA02_P"          : "V2",   # H7
+        "LA02_N"          : "V1",   # H8
+        "LA04_P"          : "AA2",  # H10
+        "LA04_N"          : "AA1",  # H11
+        "LA07_P"          : "U5",   # H13
+        "LA07_N"          : "U4",   # H14
+        "LA11_P"          : "AB6",  # H16
+        "LA11_N"          : "AB5",  # H17
+        "LA15_P"          : "Y10",  # H19
+        "LA15_N"          : "Y9",   # H20
+        "LA19_P"          : "L13",  # H22
+        "LA19_N"          : "K13",  # H23
+        "LA21_P"          : "P12",  # H25
+        "LA21_N"          : "N12",  # H26
+        "LA24_P"          : "L12",  # H28
+        "LA24_N"          : "K12",  # H29
+        "LA28_P"          : "T7",   # H31
+        "LA28_N"          : "T6",   # H32
+        "LA30_P"          : "V6",   # H34
+        "LA30_N"          : "U6",   # H35
+        "LA32_P"          : "U11",  # H37
+        "LA32_N"          : "T11",  # H38
     }),
-    ("FMC_HPC1", {
-        "CLK0_M2C_N"      : "AF7",
-        "CLK0_M2C_P"      : "AE7",
-        "CLK1_M2C_N"      : "P9",
-        "CLK1_M2C_P"      : "P10",
-        "DP0_C2M_N"       : "F30",
-        "DP0_C2M_P"       : "F29",
-        "DP0_M2C_N"       : "E32",
-        "DP0_M2C_P"       : "E31",
-        "DP1_C2M_N"       : "D30",
-        "DP1_C2M_P"       : "D29",
-        "DP1_M2C_N"       : "D34",
-        "DP1_M2C_P"       : "D33",
-        "DP2_C2M_N"       : "B30",
-        "DP2_C2M_P"       : "B29",
-        "DP2_M2C_N"       : "C32",
-        "DP2_M2C_P"       : "C31",
-        "DP3_C2M_N"       : "A32",
-        "DP3_C2M_P"       : "A31",
-        "DP3_M2C_N"       : "B34",
-        "DP3_M2C_P"       : "B33",
-        "DP4_C2M_N"       : "K30",
-        "DP4_C2M_P"       : "K29",
-        "DP4_M2C_N"       : "L32",
-        "DP4_M2C_P"       : "L31",
-        "DP5_C2M_N"       : "J32",
-        "DP5_C2M_P"       : "J31",
-        "DP5_M2C_N"       : "K34",
-        "DP5_M2C_P"       : "K33",
-        "DP6_C2M_N"       : "H30",
-        "DP6_C2M_P"       : "H29",
-        "DP6_M2C_N"       : "H34",
-        "DP6_M2C_P"       : "H33",
-        "DP7_C2M_N"       : "G32",
-        "DP7_C2M_P"       : "G31",
-        "DP7_M2C_N"       : "F34",
-        "DP7_M2C_P"       : "F33",
-        "GBTCLK0_M2C_C_N" : "G28",
-        "GBTCLK0_M2C_C_P" : "G27",
-        "GBTCLK1_M2C_C_N" : "E28",
-        "GBTCLK1_M2C_C_P" : "E27",
-        "LA00_CC_N"       : "AF5",
-        "LA00_CC_P"       : "AE5",
-        "LA01_CC_N"       : "AJ5",
-        "LA01_CC_P"       : "AJ6",
-        "LA02_N"          : "AD1",
-        "LA02_P"          : "AD2",
-        "LA03_N"          : "AJ1",
-        "LA03_P"          : "AH1",
-        "LA04_N"          : "AF1",
-        "LA04_P"          : "AF2",
-        "LA05_N"          : "AH3",
-        "LA05_P"          : "AG3",
-        "LA06_N"          : "AJ2",
-        "LA06_P"          : "AH2",
-        "LA07_N"          : "AE4",
-        "LA07_P"          : "AD4",
-        "LA08_N"          : "AF3",
-        "LA08_P"          : "AE3",
-        "LA09_N"          : "AE1",
-        "LA09_P"          : "AE2",
-        "LA10_N"          : "AJ4",
-        "LA10_P"          : "AH4",
-        "LA11_N"          : "AF8",
-        "LA11_P"          : "AE8",
-        "LA12_N"          : "AD6",
-        "LA12_P"          : "AD7",
-        "LA13_N"          : "AH8",
-        "LA13_P"          : "AG8",
-        "LA14_N"          : "AH6",
-        "LA14_P"          : "AH7",
-        "LA15_N"          : "AE9",
-        "LA15_P"          : "AD10",
-        "LA16_N"          : "AG9",
-        "LA16_P"          : "AG10",
-        "LA17_CC_N"       : "AA5",
-        "LA17_CC_P"       : "Y5",
-        "LA18_CC_N"       : "Y7",
-        "LA18_CC_P"       : "Y8",
-        "LA19_N"          : "AA10",
-        "LA19_P"          : "AA11",
-        "LA20_N"          : "AB10",
-        "LA20_P"          : "AB11",
-        "LA21_N"          : "AC11",
-        "LA21_P"          : "AC12",
-        "LA22_N"          : "AG11",
-        "LA22_P"          : "AF11",
-        "LA23_N"          : "AF12",
-        "LA23_P"          : "AE12",
-        "LA24_N"          : "AH11",
-        "LA24_P"          : "AH12",
-        "LA25_N"          : "AF10",
-        "LA25_P"          : "AE10",
-        "LA26_N"          : "R12",
-        "LA26_P"          : "T12",
-        "LA27_N"          : "T10",
-        "LA27_P"          : "U10",
-        "LA28_N"          : "R13",
-        "LA28_P"          : "T13",
-        "LA29_N"          : "W11",
-        "LA29_P"          : "W12",
+    ("FMC_HPC1", {                  # FMC connector pin
+        "DP1_M2C_P"       : "D33",  # A2  (MGT, not usable as GPIO)
+        "DP1_M2C_N"       : "D34",  # A3  (MGT, not usable as GPIO)
+        "DP2_M2C_P"       : "C31",  # A6  (MGT, not usable as GPIO)
+        "DP2_M2C_N"       : "C32",  # A7  (MGT, not usable as GPIO)
+        "DP3_M2C_P"       : "B33",  # A10 (MGT, not usable as GPIO)
+        "DP3_M2C_N"       : "B34",  # A11 (MGT, not usable as GPIO)
+        "DP4_M2C_P"       : "L31",  # A14 (MGT, not usable as GPIO)
+        "DP4_M2C_N"       : "L32",  # A15 (MGT, not usable as GPIO)
+        "DP5_M2C_P"       : "K33",  # A18 (MGT, not usable as GPIO)
+        "DP5_M2C_N"       : "K34",  # A19 (MGT, not usable as GPIO)
+        "DP1_C2M_P"       : "D29",  # A22 (MGT, not usable as GPIO)
+        "DP1_C2M_N"       : "D30",  # A23 (MGT, not usable as GPIO)
+        "DP2_C2M_P"       : "B29",  # A26 (MGT, not usable as GPIO)
+        "DP2_C2M_N"       : "B30",  # A27 (MGT, not usable as GPIO)
+        "DP3_C2M_P"       : "A31",  # A30 (MGT, not usable as GPIO)
+        "DP3_C2M_N"       : "A32",  # A31 (MGT, not usable as GPIO)
+        "DP4_C2M_P"       : "K29",  # A34 (MGT, not usable as GPIO)
+        "DP4_C2M_N"       : "K30",  # A35 (MGT, not usable as GPIO)
+        "DP5_C2M_P"       : "J31",  # A38 (MGT, not usable as GPIO)
+        "DP5_C2M_N"       : "J32",  # A39 (MGT, not usable as GPIO)
+        "DP7_M2C_P"       : "F33",  # B12 (MGT, not usable as GPIO)
+        "DP7_M2C_N"       : "F34",  # B13 (MGT, not usable as GPIO)
+        "DP6_M2C_P"       : "H33",  # B16 (MGT, not usable as GPIO)
+        "DP6_M2C_N"       : "H34",  # B17 (MGT, not usable as GPIO)
+        "GBTCLK1_M2C_P"   : "E27",  # B20 (reference clock, not usable as GPIO)
+        "GBTCLK1_M2C_N"   : "E28",  # B21 (reference clock, not usable as GPIO)
+        "DP7_C2M_P"       : "G31",  # B32 (MGT, not usable as GPIO)
+        "DP7_C2M_N"       : "G32",  # B33 (MGT, not usable as GPIO)
+        "DP6_C2M_P"       : "H29",  # B36 (MGT, not usable as GPIO)
+        "DP6_C2M_N"       : "H30",  # B37 (MGT, not usable as GPIO)
+        "DP0_C2M_P"       : "F29",  # C2  (MGT, not usable as GPIO)
+        "DP0_C2M_N"       : "F30",  # C3  (MGT, not usable as GPIO)
+        "DP0_M2C_P"       : "E31",  # C6  (MGT, not usable as GPIO)
+        "DP0_M2C_N"       : "E32",  # C7  (MGT, not usable as GPIO)
+        "LA06_P"          : "AH2",  # C10
+        "LA06_N"          : "AJ2",  # C11
+        "LA10_P"          : "AH4",  # C14
+        "LA10_N"          : "AJ4",  # C15
+        "LA14_P"          : "AH7",  # C18
+        "LA14_N"          : "AH6",  # C19
+        "LA18_CC_P"       : "Y8",   # C22
+        "LA18_CC_N"       : "Y7",   # C23
+        "LA27_P"          : "U10",  # C26
+        "LA27_N"          : "T10",  # C27
+        "GBTCLK0_M2C_P"   : "G27",  # D4  (reference clock, not usable as GPIO)
+        "GBTCLK0_M2C_N"   : "G28",  # D5  (reference clock, not usable as GPIO)
+        "LA01_CC_P"       : "AJ6",  # D8
+        "LA01_CC_N"       : "AJ5",  # D9
+        "LA05_P"          : "AG3",  # D11
+        "LA05_N"          : "AH3",  # D12
+        "LA09_P"          : "AE2",  # D14
+        "LA09_N"          : "AE1",  # D15
+        "LA13_P"          : "AG8",  # D17
+        "LA13_N"          : "AH8",  # D18
+        "LA17_CC_P"       : "Y5",   # D20
+        "LA17_CC_N"       : "AA5",  # D21
+        "LA23_P"          : "AE12", # D23
+        "LA23_N"          : "AF12", # D24
+        "LA26_P"          : "T12",  # D26
+        "LA26_N"          : "R12",  # D27
+        "CLK1_M2C_P"      : "P10",  # G2
+        "CLK1_M2C_N"      : "P9",   # G3
+        "LA00_CC_P"       : "AE5",  # G6
+        "LA00_CC_N"       : "AF5",  # G7
+        "LA03_P"          : "AH1",  # G9
+        "LA03_N"          : "AJ1",  # G10
+        "LA08_P"          : "AE3",  # G12
+        "LA08_N"          : "AF3",  # G13
+        "LA12_P"          : "AD7",  # G15
+        "LA12_N"          : "AD6",  # G16
+        "LA16_P"          : "AG10", # G18
+        "LA16_N"          : "AG9",  # G19
+        "LA20_P"          : "AB11", # G21
+        "LA20_N"          : "AB10", # G22
+        "LA22_P"          : "AF11", # G24
+        "LA22_N"          : "AG11", # G25
+        "LA25_P"          : "AE10", # G27
+        "LA25_N"          : "AF10", # G28
+        "LA29_P"          : "W12",  # G30
+        "LA29_N"          : "W11",  # G31
+        "CLK0_M2C_P"      : "AE7",  # H4
+        "CLK0_M2C_N"      : "AF7",  # H5
+        "LA02_P"          : "AD2",  # H7
+        "LA02_N"          : "AD1",  # H8
+        "LA04_P"          : "AF2",  # H10
+        "LA04_N"          : "AF1",  # H11
+        "LA07_P"          : "AD4",  # H13
+        "LA07_N"          : "AE4",  # H14
+        "LA11_P"          : "AE8",  # H16
+        "LA11_N"          : "AF8",  # H17
+        "LA15_P"          : "AD10", # H19
+        "LA15_N"          : "AE9",  # H20
+        "LA19_P"          : "AA11", # H22
+        "LA19_N"          : "AA10", # H23
+        "LA21_P"          : "AC12", # H25
+        "LA21_N"          : "AC11", # H26
+        "LA24_P"          : "AH12", # H28
+        "LA24_N"          : "AH11", # H29
+        "LA28_P"          : "T13",  # H31
+        "LA28_N"          : "R13",  # H32
     }),
 ]
 
