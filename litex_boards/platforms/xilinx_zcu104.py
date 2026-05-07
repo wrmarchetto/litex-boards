@@ -197,7 +197,7 @@ class Platform(XilinxUSPPlatform):
     default_clk_period = 1e9/125e6
 
     def __init__(self, toolchain="vivado"):
-        XilinxUSPPlatform.__init__(self, "xczu7ev-ffvc1156-2-i", _io, toolchain=toolchain)
+        XilinxUSPPlatform.__init__(self, "xczu7ev-ffvc1156-2-i", _io, _connectors, toolchain=toolchain)
 
     def create_programmer(self):
         return VivadoProgrammer()
